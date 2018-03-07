@@ -1,6 +1,8 @@
 html {
-  color: red;
-  font-size: 20px;
+  color: green;
+  font-size: 25px;
+
+
 
 }
 
@@ -10,7 +12,6 @@ html {
   background-color: black;
   display: flex;
   height: 50px;
-
 }
 
 .logo  {
@@ -51,7 +52,6 @@ html {
   background-color: black;
   color: white;
   width: 20rem;
-  border: 4px green solid;
   height: 10rem;
   margin-top: 150px;
   margin-left: 100px;
@@ -73,9 +73,34 @@ html {
 
 }
 
+/* ============ Below is CSS for the Navigation ============= */
+
+.nav-banner {
+  display: flex;
+  background-color: firebrick;
+  height: 50px;
+  width: 90%;
+  align-items: center;
+  border: 3px green solid;
+}
+
+nav a {
+  display: inline-block;
+  padding-left: 100px;
+  color: white;
+
+}
+
+
+/*              */
+
+
 
 .container {
+  display: flex;
+  flex-direction: column;
   border: 2px green solid;
-  margin-left: 20%;
+  margin-left: 10%;
+
 
 }
