@@ -1,0 +1,81 @@
+html {
+  color: red;
+  font-size: 20px;
+
+}
+
+/*Below is all the css for the header */
+
+.header {
+  background-color: black;
+  display: flex;
+  height: 50px;
+
+}
+
+.logo  {
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
+
+}
+
+.logo img {
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo h3 {
+  color: white;
+  font-size: 1rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  padding-left: 1rem;
+}
+
+/* Below is the css for the first container and the nav bar */
+
+.first-container {
+  flex-direction: column;
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  height: 25rem;
+  background-repeat: no-repeat;
+  width: 100%;
+
+}
+
+.black-boxcontainer {
+  display: block;
+  background-color: black;
+  color: white;
+  width: 20rem;
+  border: 4px green solid;
+  height: 10rem;
+  margin-top: 150px;
+  margin-left: 100px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.new {
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
+
+}
+
+.sport {
+  font-size: 2rem;
+  margin-top: 0.25rem;
+  margin-left: 3rem;
+
+}
+
+
+.container {
+  border: 2px green solid;
+  margin-left: 20%;
+
+}
